@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <h1>Iniciar sesión</h1>
+
+  <form id="formLogin">
+    <label for="usuario">Usuario</label>
+    <input type="text" id="usuario" required>
+
+    <label for="clave">Contraseña</label>
+    <input type="password" id="clave" required>
+
+    <button type="submit">Entrar</button>
+  </form>
+
+  <p id="errorLogin" style="color: red;"></p>
+
+  <script src="js/login.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Menú Principal</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <h2>Bienvenido</h2>
+  <p>Selecciona un formulario:</p>
+
+  <ul>
+    <li><a href="form1.html">Formulario de Datos</a></li>
+    <li><a href="form2.html">Formulario de Contacto</a></li>
+  </ul>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario 1</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <h2>Formulario de Datos Personales</h2>
+
+  <form id="formDatos">
+    <label>Nombre completo</label>
+    <input type="text" id="nombre" required>
+
+    <label>Edad</label>
+    <input type="number" id="edad" required>
+
+    <button type="submit">Enviar</button>
+  </form>
+
+  <script src="js/form1.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario 2</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <h2>Formulario de Contacto</h2>
+
+  <form id="formContacto">
+    <label>Email</label>
+    <input type="email" id="email" required>
+
+    <label>Mensaje</label>
+    <textarea id="mensaje" required></textarea>
+
+    <button type="submit">Enviar</button>
+  </form>
+
+  <script src="js/form2.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Confirmación</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <h2>Datos Recibidos</h2>
+  <div id="resultado"></div>
+
+  <script src="js/confirm.js"></script>
+</body>
+</html>
